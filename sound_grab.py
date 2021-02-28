@@ -16,8 +16,13 @@ def download(url, filename, destination):
 
 destination = "~/Music/"
 grab_em = {
-        'https://www.youtube.com/watch?v=LYU-8IFcDPw': 'Linkin Park -- Faint',
-        'https://www.youtube.com/watch?v=jgr1I7CdMeY': 'Eminem -- Fack',
+        "https://www.youtube.com/watch?v=AjIL2BemqBY": "Deep Purple -- Soldier Of Fortune",
+        "https://www.youtube.com/watch?v=9_Iq9CWuqMM": "Deep Purple -- When A Blind Man Cries",
+
+        "https://www.youtube.com/watch?v=LYU-8IFcDPw": "Linkin Park -- Faint",
+        "https://www.youtube.com/watch?v=eVTXPUF4Oz4": "Linkin Park -- In The End",
+        "https://www.youtube.com/watch?v=kXYiU_JCYtU": "Linkin Park -- Numb",
+        "https://www.youtube.com/watch?v=8sgycukafqQ": "Linkin Park -- What I've Done",
 
         "https://www.youtube.com/watch?v=6Ejga4kJUts": "The Cranberries -- Zombie",
         "https://www.youtube.com/watch?v=Zz-DJr1Qs54": "The Cranberries -- Ode To My Family",
@@ -48,6 +53,14 @@ grab_em = {
         "https://www.youtube.com/watch?v=8SbUC-UaAxE": "Guns N' Roese -- November Rain",
 
         "https://www.youtube.com/watch?v=n4RjJKxsamQ": "Scorpions -- Wind Of Change",
+        "https://www.youtube.com/watch?v=1UUYjd2rjsE": "Scorpions -- Send Me An Angel",
+        "https://www.youtube.com/watch?v=CjRas1yOWvo": "Scorpions -- Still Loving You",
+
+        "https://www.youtube.com/watch?v=QkF3oxziUI4": "Led Zappelin -- Stairway To Heaven",
+        "https://www.youtube.com/watch?v=s85y2M615PA": "Led Zappelin -- Immigrant Song",
+
+        "https://www.youtube.com/watch?v=pAgnJDJN4VA": "AC/DC -- Back In Black",
+        "https://www.youtube.com/watch?v=l482T0yNkeo": "AC/DC -- Highway To Hell",
 
         "https://www.youtube.com/watch?v=fregObNcHC8": "Nirvana (MTV Unplugged) -- The Man Who Sold The World",
         "https://www.youtube.com/watch?v=z9LiPuVRyU8": "Nirvana (MTV Unplugged) -- Come As You Are",
