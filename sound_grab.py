@@ -16,6 +16,16 @@ def download(url, filename, destination):
 
 destination = "~/Music/"
 grab_em = {
+        "https://www.youtube.com/watch?v=WSuVCyT63II": "The Beatles -- Yesterday",
+        "https://www.youtube.com/watch?v=7qMls5yxP1w": "The Beatles -- Hey Jude!",
+        "https://www.youtube.com/watch?v=6d5ST3tbPIU": "The Beatles -- Let It Be",
+        "https://www.youtube.com/watch?v=S302kF8MJ-I": "The Beatles -- She Loves You",
+        "https://www.youtube.com/watch?v=HuS5NuXRb5Y": "The Beatles -- Eleonor Rigby",
+        "https://www.youtube.com/watch?v=KQetemT1sWc": "The Beatles -- Here Comes The Sun",
+        "https://www.youtube.com/watch?v=9_c2XZd9mMo": "The Beatles -- And I Love Her",
+        "https://www.youtube.com/watch?v=lqAS8sCffZg": "The Beatles -- In My Life",
+        "https://www.youtube.com/watch?v=iELGhAGwBdc": "The Beatles -- Here, There And Everywhere",
+
         "https://www.youtube.com/watch?v=AjIL2BemqBY": "Deep Purple -- Soldier Of Fortune",
         "https://www.youtube.com/watch?v=9_Iq9CWuqMM": "Deep Purple -- When A Blind Man Cries",
 
@@ -59,8 +69,8 @@ grab_em = {
         "https://www.youtube.com/watch?v=QkF3oxziUI4": "Led Zappelin -- Stairway To Heaven",
         "https://www.youtube.com/watch?v=s85y2M615PA": "Led Zappelin -- Immigrant Song",
 
-        "https://www.youtube.com/watch?v=pAgnJDJN4VA": "AC/DC -- Back In Black",
-        "https://www.youtube.com/watch?v=l482T0yNkeo": "AC/DC -- Highway To Hell",
+        "https://www.youtube.com/watch?v=pAgnJDJN4VA": "AC~DC -- Back In Black",
+        "https://www.youtube.com/watch?v=l482T0yNkeo": "AC~DC -- Highway To Hell",
 
         "https://www.youtube.com/watch?v=fregObNcHC8": "Nirvana (MTV Unplugged) -- The Man Who Sold The World",
         "https://www.youtube.com/watch?v=z9LiPuVRyU8": "Nirvana (MTV Unplugged) -- Come As You Are",
