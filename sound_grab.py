@@ -14,7 +14,7 @@ def download(url, filename, destination):
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
         ydl.download([url])
 
-destination = "~/Music/"
+destination = "/mnt/c/Users/User/Desktop/Music/"
 grab_em = {
         "https://www.youtube.com/watch?v=WSuVCyT63II": "The Beatles -- Yesterday",
         "https://www.youtube.com/watch?v=7qMls5yxP1w": "The Beatles -- Hey Jude!",
@@ -117,4 +117,5 @@ grab_em = {
 
 for key, value in grab_em.items():
     download(key, value, destination)
+    print()
 
