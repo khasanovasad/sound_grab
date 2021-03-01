@@ -14,7 +14,7 @@ def download(url, filename, destination):
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
         ydl.download([url])
 
-destination = "/mnt/c/Users/User/Desktop/Music/"
+destination = "~/Music/"
 grab_em = {
         "https://www.youtube.com/watch?v=WSuVCyT63II": "The Beatles -- Yesterday",
         "https://www.youtube.com/watch?v=7qMls5yxP1w": "The Beatles -- Hey Jude!",
@@ -60,7 +60,7 @@ grab_em = {
         "https://www.youtube.com/watch?v=HgzGwKwLmgM": "Queen -- Don't Stop Me Now",
 
         "https://www.youtube.com/watch?v=zRIbf6JqkNc": "Guns N' Roses -- Don't Cry",
-        "https://www.youtube.com/watch?v=8SbUC-UaAxE": "Guns N' Roese -- November Rain",
+        "https://www.youtube.com/watch?v=8SbUC-UaAxE": "Guns N' Roses -- November Rain",
 
         "https://www.youtube.com/watch?v=n4RjJKxsamQ": "Scorpions -- Wind Of Change",
         "https://www.youtube.com/watch?v=1UUYjd2rjsE": "Scorpions -- Send Me An Angel",
@@ -102,7 +102,7 @@ grab_em = {
         "https://www.youtube.com/watch?v=0qanF-91aJo": "Black Sabbath -- Paranoid",
         "https://www.youtube.com/watch?v=LQUXuQ6Zd9w": "Black Sabbath -- War Pigs",
 
-        "https://www.youtube.com/watch?v=34ZmKbe5oG4": "Pink Floyd -- Another Brick In The World 2",
+        "https://www.youtube.com/watch?v=34ZmKbe5oG4": "Pink Floyd -- Another Brick In The Wall 2",
         "https://www.youtube.com/watch?v=_FrOQC-zEog": "Pink Floyd -- Comfortably Numb",
         "https://www.youtube.com/watch?v=hjpF8ukSrvk": "Pink Floyd -- Wish You Were Here",
         "https://www.youtube.com/watch?v=7jMlFXouPk8": "Pink Floyd -- High Hopes",
