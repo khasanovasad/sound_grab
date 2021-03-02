@@ -20,4 +20,4 @@ python3 sound_grab.py
 #### Windows or MacOS
 1. Uninstall the current OS you have
 2. Install any Linux distro
-3. Use the script after you follow the instructions given above. (don't forget to use the package manager of your distro instead of **apt**)
+3. Use the script after you follow the instructions given above for Linux users. (don't forget to use the package manager of your distro instead of **apt**)
