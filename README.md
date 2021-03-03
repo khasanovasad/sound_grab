@@ -6,7 +6,7 @@ A script to download music from YouTube videos.
 * **youtube-dl** pip package
 * **ffmpeg** native package
 
-### Set Up
+### Usage
 #### Linux (Ubuntu)
 ```bash
 git clone <project_git_link>
