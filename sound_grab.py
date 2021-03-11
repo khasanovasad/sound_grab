@@ -67,7 +67,7 @@ grab_em = {
         "https://www.youtube.com/watch?v=CjRas1yOWvo": "Scorpions -- Still Loving You",
 
         "https://www.youtube.com/watch?v=QkF3oxziUI4": "Led Zappelin -- Stairway To Heaven",
-        "https://www.youtube.com/watch?v=s85y2M615PA": "Led Zappelin -- Immigrant Song",
+        "https://www.youtube.com/watch?v=17CsLvJS4cc": "Led Zappelin -- Immigrant Song",
 
         "https://www.youtube.com/watch?v=pAgnJDJN4VA": "AC~DC -- Back In Black",
         "https://www.youtube.com/watch?v=l482T0yNkeo": "AC~DC -- Highway To Hell",
@@ -80,6 +80,7 @@ grab_em = {
         "https://www.youtube.com/watch?v=_24pJQUj7zg": "Nirvana (MTV Unplugged) -- About A Girl",
         "https://www.youtube.com/watch?v=GtBhclCigH0": "Nirvana (MTV Unplugged) -- Dumb",
         "https://www.youtube.com/watch?v=aWmkuH1k7uA": "Nirvana (MTV Unplugged) -- All Apologies",
+        "https://www.youtube.com/watch?v=rBzA4shGmw8": "Kurt Cobain -- And I Love Her",
 
         "https://www.youtube.com/watch?v=JoolQUDWq-k": "Metallica -- Die My Darling",
         "https://www.youtube.com/watch?v=tAGnKpE4NCI": "Metallica -- Nothing Else Matters",
@@ -108,14 +109,24 @@ grab_em = {
         "https://www.youtube.com/watch?v=7jMlFXouPk8": "Pink Floyd -- High Hopes",
         "https://www.youtube.com/watch?v=cWGE9Gi0bB0": "Pink Floyd -- Shine On Your Crazy Diamond",
 
-        "https://www.youtube.com/watch?v=lS-af9Q-zvQ": "The Doors -- Riders On The Storm",
+        "https://www.youtube.com/watch?v=iv8GW1GaoIc": "The Doors -- Riders On The Storm",
         "https://www.youtube.com/watch?v=Mgw5j9h8528": "The Doors -- Been Down So Long",
         "https://www.youtube.com/watch?v=j0Mz_IqpZX8": "The Doors -- People Are Strange",
         "https://www.youtube.com/watch?v=imcHmSUVEvk": "The Doors -- Crystal Ship",
         "https://www.youtube.com/watch?v=WwnLt6b7YHk": "The Doors -- L.A Woman",
+
+        "https://www.youtube.com/watch?v=bpOSxM0rNPM": "Arctic Monkeys -- Do I Wanna Know",
+        "https://www.youtube.com/watch?v=nu6Os0R-tq4": "Europe -- The Final Countdown",
+        "https://www.youtube.com/watch?v=btPJPFnesV4": "Survivor -- Eye Of The Tiger",
+        "https://www.youtube.com/watch?v=W3q8Od5qJio": "Rammstein -- Du Hast",
+        "https://www.youtube.com/watch?v=vx2u5uUu3DE": "Bon Jovi -- It's My Life",
 }
 
 for key, value in grab_em.items():
-    download(key, value, destination)
-    print()
+    try:
+        download(key, value, destination)
+        print()
+    except:
+        print("Problem while downloading \"{}\" at \"{}\"".format(value, key))
+        pass
 
